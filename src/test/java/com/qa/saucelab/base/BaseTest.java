@@ -23,6 +23,7 @@ public class BaseTest {
 		prop = pf.init_prop();
 		page = pf.initBrowser(prop);
 		loginpage = new LoginPage(page);
+		checkoutpage = new CheckoutPage(page);  
 
 	}
 	

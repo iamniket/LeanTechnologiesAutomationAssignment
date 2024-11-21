@@ -18,6 +18,7 @@ public class PlaywrighFactory {
 	Page page;
 	Properties prop;
 	
+	
 	public Page initBrowser(Properties prop) {
 		String browserName= prop.getProperty("broswer");
 		System.out.println("browser name is : " + browserName);
@@ -62,23 +63,7 @@ public class PlaywrighFactory {
 	}
 	return prop;
 	
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+}
 
-}
-}
