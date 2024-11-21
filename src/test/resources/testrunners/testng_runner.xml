@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SauceLab Regression Runner" verbose="4">
+
+
+	<test name="Sauce Lab Login Page">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.saucelab.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+</suite>
